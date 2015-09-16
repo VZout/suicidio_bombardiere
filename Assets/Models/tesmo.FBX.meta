@@ -1,0 +1,711 @@
+fileFormatVersion: 2
+guid: 28acc396282e64c4681e5d8cbf3a52d9
+timeCreated: 1440241023
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box001
+    100002: human_Head
+    100004: human_HeadKnub
+    100006: human_l_Clav
+    100008: human_l_Foot
+    100010: human_l_FootKnub
+    100012: human_l_ForarmRoll1
+    100014: human_l_ForarmRoll2
+    100016: human_l_Forearm
+    100018: human_l_Forearm_FK_Bone
+    100020: human_l_Forearm_IK_Bone
+    100022: human_l_Knee
+    100024: human_l_Shoulder
+    100026: human_l_Shoulder_FK_Bone
+    100028: human_l_Shoulder_IK_Bone
+    100030: human_l_ShoulderRoll
+    100032: human_l_Tigh
+    100034: human_l_Wrist
+    100036: human_l_Wrist_FK_bone
+    100038: human_l_Wrist_IK_Bone
+    100040: human_Pelvis
+    100042: human_PelvisKnub
+    100044: human_r_Clav
+    100046: human_r_Foot
+    100048: human_r_FootKnub
+    100050: human_r_Forearm
+    100052: human_r_Forearm_FK_Bone
+    100054: human_r_Forearm_IK_Bone
+    100056: human_r_ForearmRoll1
+    100058: human_r_ForearmRoll2
+    100060: human_r_Knee
+    100062: human_r_Shoulder
+    100064: human_r_Shoulder_FK_Bone
+    100066: human_r_Shoulder_IK_Bone
+    100068: human_r_ShoulderRoll
+    100070: human_r_Tigh
+    100072: human_r_Wrist
+    100074: human_r_Wrist_FK_bone
+    100076: human_r_Wrist_IK_Bone
+    100078: human_Spine2
+    100080: human_Spine3
+    100082: //RootNode
+    400000: Box001
+    400002: human_Head
+    400004: human_HeadKnub
+    400006: human_l_Clav
+    400008: human_l_Foot
+    400010: human_l_FootKnub
+    400012: human_l_ForarmRoll1
+    400014: human_l_ForarmRoll2
+    400016: human_l_Forearm
+    400018: human_l_Forearm_FK_Bone
+    400020: human_l_Forearm_IK_Bone
+    400022: human_l_Knee
+    400024: human_l_Shoulder
+    400026: human_l_Shoulder_FK_Bone
+    400028: human_l_Shoulder_IK_Bone
+    400030: human_l_ShoulderRoll
+    400032: human_l_Tigh
+    400034: human_l_Wrist
+    400036: human_l_Wrist_FK_bone
+    400038: human_l_Wrist_IK_Bone
+    400040: human_Pelvis
+    400042: human_PelvisKnub
+    400044: human_r_Clav
+    400046: human_r_Foot
+    400048: human_r_FootKnub
+    400050: human_r_Forearm
+    400052: human_r_Forearm_FK_Bone
+    400054: human_r_Forearm_IK_Bone
+    400056: human_r_ForearmRoll1
+    400058: human_r_ForearmRoll2
+    400060: human_r_Knee
+    400062: human_r_Shoulder
+    400064: human_r_Shoulder_FK_Bone
+    400066: human_r_Shoulder_IK_Bone
+    400068: human_r_ShoulderRoll
+    400070: human_r_Tigh
+    400072: human_r_Wrist
+    400074: human_r_Wrist_FK_bone
+    400076: human_r_Wrist_IK_Bone
+    400078: human_Spine2
+    400080: human_Spine3
+    400082: //RootNode
+    4300000: Box001
+    7400000: Running
+    7400002: Idle
+    7400004: Walking0
+    7400006: Walking1
+    7400008: Walking2
+    9500000: //RootNode
+    13700000: Box001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: human_Pelvis
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot/human_l_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot/human_r_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head/human_HeadKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone/human_l_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone/human_l_Wrist_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone/human_r_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone/human_r_Wrist_IK_Bone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: human_Pelvis
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot/human_l_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot/human_r_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head/human_HeadKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone/human_l_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone/human_l_Wrist_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone/human_r_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone/human_r_Wrist_IK_Bone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking0
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: human_Pelvis
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot/human_l_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot/human_r_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head/human_HeadKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone/human_l_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone/human_l_Wrist_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone/human_r_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone/human_r_Wrist_IK_Bone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking1
+      takeName: Take 001
+      firstFrame: 99
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: human_Pelvis
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot/human_l_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot/human_r_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head/human_HeadKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone/human_l_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone/human_l_Wrist_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone/human_r_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone/human_r_Wrist_IK_Bone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking2
+      takeName: Take 001
+      firstFrame: 159
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: human_Pelvis
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_l_Tigh/human_l_Knee/human_l_Foot/human_l_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_r_Tigh/human_r_Knee/human_r_Foot/human_r_FootKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_Head/human_HeadKnub
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_ForarmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_Forearm/human_l_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder/human_l_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_FK_Bone/human_l_Forearm_FK_Bone/human_l_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_l_Clav/human_l_Shoulder_IK_Bone/human_l_Forearm_IK_Bone/human_l_Wrist_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll1
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_ForearmRoll2
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_Forearm/human_r_Wrist
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder/human_r_ShoulderRoll
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_FK_Bone/human_r_Forearm_FK_Bone/human_r_Wrist_FK_bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone
+        weight: 1
+      - path: human_Pelvis/human_PelvisKnub/human_Spine2/human_Spine3/human_r_Clav/human_r_Shoulder_IK_Bone/human_r_Forearm_IK_Bone/human_r_Wrist_IK_Bone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
